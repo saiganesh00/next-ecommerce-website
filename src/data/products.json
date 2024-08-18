@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 999.99,
+    "image": "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "A high-performance laptop for all your computing needs."
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 699.99,
+    "image": "https://images.pexels.com/photos/1042143/pexels-photo-1042143.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "A sleek and powerful smartphone with the latest features."
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww",
+    "description": "Comfortable and stylish running shoes for all your fitness needs."
+  },
+  {
+    "id": 4,
+    "name": "Winter Jacket",
+    "price": 129.99,
+    "image": "https://plus.unsplash.com/premium_photo-1670623042512-1a5ecebc3f42?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2ludGVyJTIwamFja2V0fGVufDB8fDB8fHww",
+    "description": "A warm and cozy winter jacket for the coldest days."
+  },
+  {
+    "id": 5,
+    "name": "Organic Apples",
+    "price": 3.99,
+    "image": "https://images.pexels.com/photos/326005/pexels-photo-326005.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Fresh and organic apples, perfect for a healthy snack."
+  },
+  {
+    "id": 6,
+    "name": "Milk Carton",
+    "price": 2.49,
+    "image": "https://images.unsplash.com/photo-1574343193689-93e01f51291e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWlsayUyMGNhcnRvbnxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A carton of fresh milk for your daily needs."
+  },
+  {
+    "id": 7,
+    "name": "Elegant Dress",
+    "price": 59.99,
+    "image": "https://media.istockphoto.com/id/1170648040/photo/beautiful-lady-overjoyed-by-warm-spring-breeze-dream-of-romantic-date-wear-cute-floral-dress.webp?b=1&s=612x612&w=0&k=20&c=c-vNwZo56ZHhLj7twYPrP6hkAAvcpvBuBMRwbQnTVKY=",
+    "description": "An elegant dress perfect for special occasions."
+  },
+  {
+    "id": 8,
+    "name": "Gaming Monitor",
+    "price": 399.99,
+    "image": "https://media.istockphoto.com/id/1401846043/photo/modern-gamer-computer-desk-setup-with-rgb-lights-on-the-background-pc-computer.webp?b=1&s=612x612&w=0&k=20&c=n9dn5vhc_NwTT0prVU9uxJnXnjED296uzUECKOtwNcY=",
+    "description": "A high-resolution gaming monitor for immersive experiences."
+  },
+  {
+    "id": 9,
+    "name": "Bread Loaf",
+    "price": 1.99,
+    "image": "https://images.unsplash.com/photo-1469014221409-dea4fc6a6b2e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJlYWQlMjBsb2FmfGVufDB8fDB8fHww",
+    "description": "A freshly baked loaf of bread for your daily meals."
+  },
+  {
+    "id": 10,
+    "name": "Cotton T-Shirt",
+    "price": 19.99,
+    "image": "https://media.istockphoto.com/id/1359179129/photo/young-man-stock-photo.webp?b=1&s=612x612&w=0&k=20&c=bepXjqpn5l1QuqT6m4TT_rUoz735cyRbli5LoyMMx0A=",
+    "description": "A soft and comfortable cotton t-shirt for everyday wear."
+  }
+]

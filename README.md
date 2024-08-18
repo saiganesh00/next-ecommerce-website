@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EKART - E-commerce Application
 
-## Getting Started
+EKART is a modern e-commerce application built with Next.js and Tailwind CSS. It provides a seamless shopping experience with features for managing a shopping cart, applying discounts, and handling wishlists. The app also includes a checkout process and a success page for order confirmation.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Product Listing
+- **View Products**: Display a list of products with images, names, and prices.
+- **Add to Cart**: Users can add products to the shopping cart.
+- **Add to Wishlist**: Users can add products to their wishlist.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Shopping Cart
+- **Manage Items**: Increase or decrease item quantities in the cart.
+- **Remove Items**: Remove items from the cart.
+- **Cart Summary**: Shows subtotal, applied discounts, and total price.
+- **Apply Discounts**: Support for fixed and percentage-based discounts.
+- **Checkout**: Redirect to a checkout page where users can review their order and proceed with the purchase.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Checkout and Success
+- **Order Summary**: Displays all ordered items, subtotal, discount, and total amount.
+- **Complete Purchase**: Finalize the order and redirect to a success page.
+- **Order Confirmation**: View a thank-you message and return to the homepage.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Wishlist
+- **View Wishlist**: Manage and view products saved for later.
 
-## Learn More
+### Persistent Footer
+- **Footer Placement**: Footer remains at the bottom of the viewport for consistent layout.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```plaintext
+.
+├── public/
+│   └── images/               # Static product images
+├── src/
+│   ├── app/
+│   │   ├── cart/             # Cart page
+│   │   ├── checkout/         # Checkout page
+│   │   ├── success/          # Success page
+│   │   ├── wishlist/         # Wishlist page
+│   │   └── components/
+│   │   |    ├── Header.jsx    # Header component
+│   │   |    ├── Footer.jsx    # Footer component
+│   |   ├── context/
+│   │       ├── CartContext.jsx   # Cart context provider
+│   │       ├──WishlistContext.jsx # Wishlist context provider
+│   └── data/
+│       └── products.json      # Global styles
+├── README.md                 # Project documentation
+└── package.json              # Project dependencies and scripts
